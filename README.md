@@ -39,12 +39,15 @@ docker run -p 4222:4222 -ti nats
 ## Running the Application
 #### Clone the repository and navigate into it:
 ```bash
-git clone <repository-url>
-cd spring-boot-messaging-demo
+git clone git@github.com:aashishkarki11/message-queue.git
 
 ```
+#### Build and run the application using Gradle:
+```bash
+./gradlew build
+./gradlew bootRun
 
-
+```
 
 ## Endpoints
 
